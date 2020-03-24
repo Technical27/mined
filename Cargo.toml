@@ -1,0 +1,13 @@
+[package]
+name = "server-manager"
+version = "0.1.0"
+authors = ["Aamaruvi Yogamani <38222826+Technical27@users.noreply.github.com>"]
+edition = "2018"
+
+# See more keys and their definitions at https://doc.rust-lang.org/cargo/reference/manifest.html
+
+[dependencies]
+ctrlc = { version = "3.1", features = ["termination"] }
+tokio = { version = "0.2", features = ["full"] }
+daemonize = "0.4"
+futures = "0.3"
